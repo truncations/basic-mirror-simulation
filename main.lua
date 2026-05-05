@@ -71,7 +71,7 @@ mirror:setFillColor(0,0,0,0)
 local uiFrame = display.newRect(uiModGroup, display.contentCenterX, display.contentHeight - (uiModSizeY / 2), uiModSizeX, uiModSizeY)
 uiFrame:setFillColor(155/255, 171/255, 178/255)
 
-local title = display.newText( uiModGroup, "ap phys 2 mirror sim. (units in pixels)", 750, display.contentHeight - uiModSizeY + 20, 1000, 35, native.systemFont, 25)
+local title = display.newText( uiModGroup, "ap phys 2 mirror sim. (units in pixels)", 850, display.contentHeight - uiModSizeY + 20, 1000, 35, native.systemFont, 25)
 local objectDistDisplay = display.newText( {parent = uiModGroup, text = objectDistance_re_xMid, x = 68, y = display.contentHeight - uiModSizeY/2, width = 500, height = 85, font = native.systemFont, fontSize = 65, align = "center"})
 local objectDistHeader = display.newText( {parent = uiModGroup, text = "object distance", x = 68, y = display.contentHeight - 13, width = 75, height = 65, font = native.systemFont, fontSize = 17, align = "center"})
 
